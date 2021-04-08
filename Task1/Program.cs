@@ -4,10 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UserTicketService
+namespace Task1
 {
-    public interface ITicketService
+    class Program
     {
-        int GetTicketPrice(int ticketId);
+        static void Main(string[] args)
+        {
+
+        }
     }
 }

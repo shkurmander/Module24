@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace UserTicketService
 {
-    class TicketService : ITicketService
+    public class TicketService : ITicketService
     {
         public int GetTicketPrice(int ticketId)
         {
@@ -31,7 +31,7 @@ namespace UserTicketService
     }
 
     
-    internal class TicketNotFoundException : Exception
+    public class TicketNotFoundException : Exception
     {
        
     }

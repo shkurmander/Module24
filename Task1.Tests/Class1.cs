@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UserTicketService
+namespace Task1.Tests
 {
-    public interface ITicketService
+    public class Class1
     {
-        int GetTicketPrice(int ticketId);
     }
 }
